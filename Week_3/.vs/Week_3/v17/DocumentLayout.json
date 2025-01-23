@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Week_3||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_3.csproj|c:\\users\\008006845\\desktop\\se256-202520\\week_3\\backend\\addsongs.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_3.csproj|solutionrelative:backend\\addsongs.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_3.csproj|c:\\users\\008006845\\desktop\\se256-202520\\week_3\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|031911c8-6148-4e25-b1b1-44bca9a0c45c"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 9,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Week_3",
+              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_3\\Week_3.csproj",
+              "RelativeDocumentMoniker": "Week_3.csproj",
+              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_3\\Week_3.csproj",
+              "RelativeToolTip": "Week_3.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-23T22:53:45.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddSongs.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_3\\Backend\\AddSongs.aspx.cs",
+              "RelativeDocumentMoniker": "Backend\\AddSongs.aspx.cs",
+              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_3\\Backend\\AddSongs.aspx.cs",
+              "RelativeToolTip": "Backend\\AddSongs.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T22:51:48.681Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
