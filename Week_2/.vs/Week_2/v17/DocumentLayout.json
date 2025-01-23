@@ -1,42 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\",
+  "WorkspaceRootPath": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\008006845\\desktop\\se256-202520\\week_2\\backend\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:backend\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:Default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\008006845\\desktop\\se256-202520\\week_2\\backend\\controlpanel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:backend\\controlpanel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:Contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\008006845\\desktop\\se256-202520\\week_2\\backend\\controlpanel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:backend\\controlpanel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\008006845\\desktop\\se256-202520\\week_2\\backend\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\coope\\onedrive\\desktop\\repos\\se256-202520\\week_2\\backend\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:backend\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\008006845\\desktop\\se256-202520\\week_2\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Site.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:Site.Master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\008006845\\desktop\\se256-202520\\week_2\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\About.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:About.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\008006845\\desktop\\se256-202520\\week_2\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\coope\\onedrive\\desktop\\repos\\se256-202520\\week_2\\songlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:songlist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\008006845\\desktop\\se256-202520\\week_2\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Backend\\ControlPanel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:Backend\\ControlPanel.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\008006845\\desktop\\se256-202520\\week_2\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Backend\\ControlPanel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:Backend\\ControlPanel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\coope\\onedrive\\desktop\\repos\\se256-202520\\week_2\\backend\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:backend\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,28 +46,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "Default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Backend\\Default.aspx.cs",
+              "RelativeDocumentMoniker": "Backend\\Default.aspx.cs",
+              "ToolTip": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Backend\\Default.aspx.cs",
+              "RelativeToolTip": "Backend\\Default.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T03:55:35.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "ControlPanel.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\Backend\\ControlPanel.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Backend\\ControlPanel.aspx.cs",
               "RelativeDocumentMoniker": "Backend\\ControlPanel.aspx.cs",
-              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\Backend\\ControlPanel.aspx.cs",
+              "ToolTip": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Backend\\ControlPanel.aspx.cs",
               "RelativeToolTip": "Backend\\ControlPanel.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T20:47:20.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ControlPanel.aspx",
-              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\Backend\\ControlPanel.aspx",
+              "DocumentMoniker": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Backend\\ControlPanel.aspx",
               "RelativeDocumentMoniker": "Backend\\ControlPanel.aspx",
-              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\Backend\\ControlPanel.aspx",
+              "ToolTip": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Backend\\ControlPanel.aspx",
               "RelativeToolTip": "Backend\\ControlPanel.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -76,38 +89,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Default.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\Backend\\Default.aspx.cs",
-              "RelativeDocumentMoniker": "Backend\\Default.aspx.cs",
-              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\Backend\\Default.aspx.cs",
-              "RelativeToolTip": "Backend\\Default.aspx.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T20:39:45.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\Backend\\Default.aspx",
+              "DocumentMoniker": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Backend\\Default.aspx",
               "RelativeDocumentMoniker": "Backend\\Default.aspx",
-              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\Backend\\Default.aspx",
+              "ToolTip": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Backend\\Default.aspx",
               "RelativeToolTip": "Backend\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-01-13T20:33:54.606Z",
+              "WhenOpened": "2025-01-15T03:49:06.772Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "WebForm1.aspx",
-              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\WebForm1.aspx",
-              "RelativeDocumentMoniker": "WebForm1.aspx",
-              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\WebForm1.aspx",
-              "RelativeToolTip": "WebForm1.aspx",
+              "Title": "SongList.aspx",
+              "DocumentMoniker": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\SongList.aspx",
+              "RelativeDocumentMoniker": "SongList.aspx",
+              "ToolTip": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\SongList.aspx",
+              "RelativeToolTip": "SongList.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2025-01-13T20:28:06.536Z",
@@ -115,11 +115,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "About.aspx",
-              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\About.aspx",
+              "DocumentMoniker": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\About.aspx",
               "RelativeDocumentMoniker": "About.aspx",
-              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\About.aspx",
+              "ToolTip": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\About.aspx",
               "RelativeToolTip": "About.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -128,11 +128,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Contact.aspx",
-              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\Contact.aspx",
+              "DocumentMoniker": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Contact.aspx",
               "RelativeDocumentMoniker": "Contact.aspx",
-              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\Contact.aspx",
+              "ToolTip": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Contact.aspx",
               "RelativeToolTip": "Contact.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -141,11 +141,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\Default.aspx",
+              "DocumentMoniker": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Default.aspx",
               "RelativeDocumentMoniker": "Default.aspx",
-              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\Default.aspx",
+              "ToolTip": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Default.aspx",
               "RelativeToolTip": "Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -154,11 +154,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Site.Master",
-              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\Site.Master",
+              "DocumentMoniker": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Site.Master",
               "RelativeDocumentMoniker": "Site.Master",
-              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\Week_2\\Site.Master",
+              "ToolTip": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Site.Master",
               "RelativeToolTip": "Site.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",

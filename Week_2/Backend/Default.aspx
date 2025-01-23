@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Week_2.Backend.Default" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="BreakingNews" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="latestAlbum" runat="server">
     <h1>Backend</h1>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="BottomContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 

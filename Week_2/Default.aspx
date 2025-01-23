@@ -1,48 +1,39 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Week_2._Default" %>
 
-<asp:Content ID="NewsContent" ContentPlaceHolderID="BreakingNews" runat="server">
+<asp:Content ID="AlbumContent" ContentPlaceHolderID="latestAlbum" runat="server">
 
-    <h2>Breaking News</h2>
-    <p>Nothing to report yet.</p>
+    <h2>Latest Album</h2>
+    <p>Nothing released yet.</p>
 
+</asp:Content>
+<asp:Content ID="Content1" ContentPlaceHolderID="BottomContent" runat="server">
 </asp:Content>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <main>
         <section class="row" aria-labelledby="aspnetTitle">
-            <h1 id="aspnetTitle">ASP.NET</h1>
-            <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-            <p><a href="http://www.asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
+            <h1 id="aspnetTitle">Home</h1>
+            <p class="lead">GraveSongs is the newest way to track music releases and reviews.</p>
         </section>
 
         <div class="row">
-            <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-                <h2 id="gettingStartedTitle">Getting started</h2>
+            <section class="col-md-4" aria-labelledby="songsTitle">
+                <h2 id="songsTitle">Songs</h2>
                 <p>
-                    ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-                A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-                </p>
-                <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
+                    Read listener interpretations of songs or rate the songs you love or hate.
                 </p>
             </section>
-            <section class="col-md-4" aria-labelledby="librariesTitle">
-                <h2 id="librariesTitle">Get more libraries</h2>
+            <section class="col-md-4" aria-labelledby="artistTitle">
+                <h2 id="artistTitle">Artists</h2>
                 <p>
-                    NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-                </p>
-                <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                    See when your favorite artists last released music.
                 </p>
             </section>
-            <section class="col-md-4" aria-labelledby="hostingTitle">
-                <h2 id="hostingTitle">Web Hosting</h2>
+            <section class="col-md-4" aria-labelledby="moreTitle">
+                <h2 id="moreTitle">More</h2>
                 <p>
-                    You can easily find a web hosting company that offers the right mix of features and price for your applications.
-                </p>
-                <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                    More features are always coming to GraveSongs, stay tuned for more.
                 </p>
             </section>
         </div>

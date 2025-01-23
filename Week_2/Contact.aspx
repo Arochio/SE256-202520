@@ -1,15 +1,16 @@
 ﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Week_2.Contact" %>
 
-<asp:Content ID="NewsContent" ContentPlaceHolderID="BreakingNews" runat="server"></asp:Content>
+<asp:Content ID="AlbumContent" ContentPlaceHolderID="latestAlbum" runat="server"></asp:Content>
+<asp:Content ID="Content1" ContentPlaceHolderID="BottomContent" runat="server">
+</asp:Content>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
         <h2 id="title"><%: Title %>.</h2>
-        <h3>Your contact page.</h3>
         <address>
-            One Microsoft Way<br />
-            Redmond, WA 98052-6399<br />
+            1 New England Tech Boulevard<br />
+            East Greenwich, RI 02818<br />
             <abbr title="Phone">P:</abbr>
-            425.555.0100
+            000.123.4567
         </address>
 
         <address>

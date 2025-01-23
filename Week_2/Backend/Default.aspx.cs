@@ -16,6 +16,7 @@ namespace Week_2.Backend
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
+            //match username and password to (temp) manually set phrases, edit session variables and respond accordingly
             if (txtUsername.Text == "User" && txtPassword.Text == "Pass")
             {
                 //Good

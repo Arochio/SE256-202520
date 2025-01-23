@@ -1,5 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ControlPanel.aspx.cs" Inherits="Week_2.Backend.ControlPanel" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="BreakingNews" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="latestAlbum" runat="server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="BottomContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -8,8 +10,9 @@
     <table>
 
         <tr>
-
-            <td><a href="manager.aspx" runat="server">Example</a></td>
+            
+            <td><asp:Button ID="btnAddSong" runat="server" OnClick="btnAddSong_Click" Text="Add Song"/></td>
+            <td><asp:Button ID="btnAddAlbum" runat="server" OnClick="btnAddAlbum_Click" Text="Add Album"/></td>
 
         </tr>
         <tr>
