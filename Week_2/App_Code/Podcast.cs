@@ -47,8 +47,8 @@ namespace Week_2.App_Code
         private string GetConnected()
         {
             //left empty for github
-            return @"Server=;Database=;" +
-                    "User Id=;Password=";
+            return @"Server=sql.neit.edu\studentsqlserver,4500;Database=Podcast.dbo;" +
+                    "User Id=dev_202510_cgraves;Password=008006845";
         }
 
         public string AddARecord()

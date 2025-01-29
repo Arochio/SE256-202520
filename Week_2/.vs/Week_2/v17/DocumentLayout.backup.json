@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\coope\\onedrive\\desktop\\repos\\se256-202520\\week_2\\backend\\addsongs.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\backend\\addsongs.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:backend\\addsongs.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\coope\\onedrive\\desktop\\repos\\se256-202520\\week_2\\app_code\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:app_code\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\app_code\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:app_code\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\coope\\onedrive\\desktop\\repos\\se256-202520\\week_2\\app_code\\validationlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\coope\\onedrive\\desktop\\repos\\se256-202520\\week_2\\backend\\addsongs.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:backend\\addsongs.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\coope\\onedrive\\desktop\\repos\\se256-202520\\week_2\\backend\\controlpanel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:backend\\controlpanel.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\app_code\\validationlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:app_code\\validationlibrary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|c:\\users\\coope\\onedrive\\desktop\\repos\\se256-202520\\week_2\\app_code\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:app_code\\podcast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\app_code\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{667C217A-A52C-415C-A431-1DB99034ABF0}|Week_2.csproj|solutionrelative:app_code\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +34,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "ControlPanel.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Backend\\ControlPanel.aspx.cs",
+              "RelativeDocumentMoniker": "Backend\\ControlPanel.aspx.cs",
+              "ToolTip": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Backend\\ControlPanel.aspx.cs",
+              "RelativeToolTip": "Backend\\ControlPanel.aspx.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-29T19:53:18.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddSongs.aspx",
+              "DocumentMoniker": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Backend\\AddSongs.aspx",
+              "RelativeDocumentMoniker": "Backend\\AddSongs.aspx",
+              "ToolTip": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Backend\\AddSongs.aspx",
+              "RelativeToolTip": "Backend\\AddSongs.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-01-29T19:10:34.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Song.cs",
               "DocumentMoniker": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\App_Code\\Song.cs",
               "RelativeDocumentMoniker": "App_Code\\Song.cs",
               "ToolTip": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\App_Code\\Song.cs",
               "RelativeToolTip": "App_Code\\Song.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T18:03:00.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ValidationLibrary.cs",
               "DocumentMoniker": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\App_Code\\ValidationLibrary.cs",
               "RelativeDocumentMoniker": "App_Code\\ValidationLibrary.cs",
@@ -56,13 +90,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Podcast.cs",
               "DocumentMoniker": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\App_Code\\Podcast.cs",
               "RelativeDocumentMoniker": "App_Code\\Podcast.cs",
               "ToolTip": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\App_Code\\Podcast.cs",
               "RelativeToolTip": "App_Code\\Podcast.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAA5wAkAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwDMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T18:02:16.271Z",
               "EditorCaption": ""
@@ -75,7 +109,7 @@
               "RelativeDocumentMoniker": "Backend\\AddSongs.aspx.cs",
               "ToolTip": "C:\\Users\\coope\\OneDrive\\Desktop\\Repos\\SE256-202520\\Week_2\\Backend\\AddSongs.aspx.cs",
               "RelativeToolTip": "Backend\\AddSongs.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAADwv0wAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T18:00:31.053Z",
               "EditorCaption": ""

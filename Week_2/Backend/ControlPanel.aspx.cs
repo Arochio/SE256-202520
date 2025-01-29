@@ -31,7 +31,7 @@ namespace Week_2.Backend
 
         protected void btnAddSong_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("/Backend/AddSongs.aspx");
         }
 
         protected void btnAddAlbum_Click(object sender, EventArgs e)
