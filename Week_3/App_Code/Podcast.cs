@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
-using Week_3.App_Code;
+using Week_2.App_Code;
 
-namespace Week_3.App_Code
+namespace Week_2.App_Code
 {
     public class Podcast : Song
     {
