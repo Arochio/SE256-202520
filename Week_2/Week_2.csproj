@@ -104,6 +104,8 @@
     <Content Include="Backend\AddSongs.aspx" />
     <Content Include="Backend\ControlPanel.aspx" />
     <Content Include="Backend\Default.aspx" />
+    <Content Include="Backend\EditSongs.aspx" />
+    <Content Include="Backend\SearchSongs.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -220,6 +222,20 @@
     </Compile>
     <Compile Include="Backend\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Backend\EditSongs.aspx.cs">
+      <DependentUpon>EditSongs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Backend\EditSongs.aspx.designer.cs">
+      <DependentUpon>EditSongs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Backend\SearchSongs.aspx.cs">
+      <DependentUpon>SearchSongs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Backend\SearchSongs.aspx.designer.cs">
+      <DependentUpon>SearchSongs.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
