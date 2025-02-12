@@ -1,0 +1,25 @@
+﻿@page
+@model RazorPagesApp.Pages.SubmissionModel
+@{
+	ViewData["Title"] = "Submissions";
+}
+
+<h1>Submit Songs</h1>
+
+<form method="post">
+	<input type="text" placeholder="Title" asp-for="tempSubmision.Submission_Title" />
+	<input type="text" placeholder="Submission Type" asp-for="tempSubmision.Submission_Type" />
+	<input type="text" placeholder="Request" asp-for="tempSubmision.Submission_Content" />
+	<input type="text" placeholder="Email" asp-for="tempSubmision.Submission_Email" />
+
+	<button type="submit">Submit</button>
+</form>
+
+@{
+	if(Model.tempSubmision is not null)
+	{
+		<h2>Results:</h2>
+		<p>@Model.tempSubmision.Submission_Title</p>
+		<p>@Model.tempSubmision.Submission_Email</p>
+	}
+}

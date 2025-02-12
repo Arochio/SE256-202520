@@ -238,33 +238,33 @@ namespace Week_2.App_Code
 
             string strSQL = "UPDATE Podcast SET Title = @Title, Artist = @Artist, Album = @Album, Release = @Release, PlayTime = @PlayTime, FirstWeekSales = @FirstWeekSales, NumberHosts = @NumberHosts, EpisodeNumber = @EpisodeNumber, Feedback = @Feedback WHERE ID = @IntPodcastID;";
 
-            SqlConnection Conn = new SqlConnection();
-            Conn.ConnectionString = GetConnected();
+            SqlConnection Conn2 = new SqlConnection();
+            Conn2.ConnectionString = GetConnected();
 
-            SqlCommand comm = new SqlCommand();
-            comm.Connection = Conn;
-            comm.CommandText = strSQL;
+            SqlCommand comm2 = new SqlCommand();
+            comm2.Connection = Conn2;
+            comm2.CommandText = strSQL;
 
-            comm.Parameters.AddWithValue("@Title", Title);
-            comm.Parameters.AddWithValue("@Artist", Artist);
-            comm.Parameters.AddWithValue("@Album", Album);
-            comm.Parameters.AddWithValue("@Release", Release);
-            comm.Parameters.AddWithValue("@PlayTime", PlayTime);
-            comm.Parameters.AddWithValue("@FirstWeekSales", FirstWeekSales);
-            comm.Parameters.AddWithValue("@NumberHosts", NumberHosts);
-            comm.Parameters.AddWithValue("@EpisodeNumber", EpisodeNumber);
-            comm.Parameters.AddWithValue("@Feedback", Feedback);
-            comm.Parameters.AddWithValue("@IntPodcastID", intPodcastID);
+            comm2.Parameters.AddWithValue("@Title", Title);
+            comm2.Parameters.AddWithValue("@Artist", Artist);
+            comm2.Parameters.AddWithValue("@Album", Album);
+            comm2.Parameters.AddWithValue("@Release", Release);
+            comm2.Parameters.AddWithValue("@PlayTime", PlayTime);
+            comm2.Parameters.AddWithValue("@FirstWeekSales", FirstWeekSales);
+            comm2.Parameters.AddWithValue("@NumberHosts", NumberHosts);
+            comm2.Parameters.AddWithValue("@EpisodeNumber", EpisodeNumber);
+            comm2.Parameters.AddWithValue("@Feedback", Feedback);
+            comm2.Parameters.AddWithValue("@IntPodcastID", intPodcastID);
             
 
             try
             {
-                Conn.Open();
+                Conn2.Open();
 
-                intRecords = comm.ExecuteNonQuery();
+                intRecords = comm2.ExecuteNonQuery();
                 strResult = intRecords.ToString() + " Record(s) " + "Updated, ID=" + intPodcastID + ".";
 
-                Conn.Close();
+                Conn2.Close();
             }
             catch (Exception err)
             {
