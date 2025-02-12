@@ -24,13 +24,13 @@ namespace Week_2.Backend
         protected global::System.Web.UI.WebControls.Button btnAddSong;
 
         /// <summary>
-        /// btnAddAlbum control.
+        /// btnSearchSong control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAddAlbum;
+        protected global::System.Web.UI.WebControls.Button btnSearchSong;
 
         /// <summary>
         /// btnLogout control.

@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
-using Week_2;
+using Week_2.App_Code;
 
 namespace Week_2.App_Code
 {
@@ -66,7 +66,7 @@ namespace Week_2.App_Code
             SqlConnection Conn = new SqlConnection();
             Conn.ConnectionString = GetConnected();
 
-            string strSQL = "INSERT INTO PodCasts (Title, Artist, Album, Release, PlayTime, FirstWeekSales, NumberHosts, EpisodeNumber, Feedback)" +
+            string strSQL = "INSERT INTO Podcast (Title, Artist, Album, Release, PlayTime, FirstWeekSales, NumberHosts, EpisodeNumber, Feedback)" +
                 "VALUES (@Title, @Artist, @Album, @Release, @PlayTime, @FirstWeekSales, @NumberHosts, @EpisodeNumber, @Feedback)";
 
             SqlCommand comm = new SqlCommand();
@@ -148,25 +148,26 @@ namespace Week_2.App_Code
         {
             SqlDataReader dr = null;
 
-            string strSQL = "SELECT ID, Title, Artist, Album, Release, PlayTime, FirstWeekSales, NumberHosts, EpisodeNumber, Feedback  FROM Podcast WHERE 0=0;";
+            string strSQL = "SELECT * FROM Podcast WHERE 0=0";
 
             SqlConnection Conn = new SqlConnection();
             Conn.ConnectionString = GetConnected();
 
             SqlCommand comm = new SqlCommand();
             comm.Connection= Conn;
-            comm.CommandText= strSQL;
 
             if (strTitle.Length > 0)
             {
-                strSQL += "AND Title LIKE @Title";
-                comm.Parameters.AddWithValue("@Title", strTitle);
+                strSQL += " AND Title LIKE @Title";
+                comm.Parameters.AddWithValue("@Title", "%" + strTitle + "%");
             }
             if (strArtist.Length > 0)
             {
-                strSQL += "AND Artist LIKE @Artist";
-                comm.Parameters.AddWithValue("@Artist", strArtist);
+                strSQL += " AND Artist LIKE @Artist";
+                comm.Parameters.AddWithValue("@Artist", "%" + strArtist + "%");
             }
+
+            comm.CommandText = strSQL;
 
             try
             {
@@ -204,7 +205,7 @@ namespace Week_2.App_Code
         {
             string strResult = "";
 
-            string strSQL = "DELETE FROM Podcast WHERE ID = @intPodcastID";
+            string strSQL = "DELETE FROM Podcast WHERE ID = @Podcast_ID";
 
             SqlConnection Conn = new SqlConnection();
             Conn.ConnectionString = GetConnected();
@@ -230,7 +231,7 @@ namespace Week_2.App_Code
             return strResult;
         }
 
-        public string UpdateARecord(int IntPodcastID)
+        public string UpdateARecord(int intPodcastID)
         {
             Int32 intRecords = 0;
             string strResult = "";
@@ -253,14 +254,15 @@ namespace Week_2.App_Code
             comm.Parameters.AddWithValue("@NumberHosts", NumberHosts);
             comm.Parameters.AddWithValue("@EpisodeNumber", EpisodeNumber);
             comm.Parameters.AddWithValue("@Feedback", Feedback);
-            comm.Parameters.AddWithValue("@IntPodcastID", IntPodcastID);
+            comm.Parameters.AddWithValue("@IntPodcastID", intPodcastID);
+            
 
             try
             {
                 Conn.Open();
 
                 intRecords = comm.ExecuteNonQuery();
-                strResult = intRecords.ToString() + "Updated";
+                strResult = intRecords.ToString() + " Record(s) " + "Updated, ID=" + intPodcastID + ".";
 
                 Conn.Close();
             }

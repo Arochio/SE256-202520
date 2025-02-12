@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
+using System.Web.Management;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Week_2.App_Code;
@@ -14,22 +15,34 @@ namespace Week_2.Backend
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["LoggedIn"] != null && (bool)Session["LoggedIn"] == true)
+            {
 
-        }
+            }
+            else
+            {
+                Response.Redirect("~/Backend");
+            }
 
-        protected void btnDelSong_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void btnUpdateSong_Click(object sender, EventArgs e)
-        {
-
+            int strPodcastID;
+            if (Request.QueryString["ID"] != null)
+            {
+                strPodcastID = Int32.Parse(Request.QueryString["ID"]);
+                Podcast temp = new Podcast();
+                lblFeedback.Text = temp.DeleteOnePodcast(strPodcastID);
+            }
         }
 
         protected void btnCancel_Click(object sender, EventArgs e)
         {
+            dgResults.DataSource = null;
+            dgResults.DataBind();
 
+            rptSearch.DataSource = null;
+            rptSearch.DataBind();
+
+            txtbxTitle.Text = "";
+            txtbxArtist.Text = "";
         }
 
         protected void btnSearchSong_Click(object sender, EventArgs e)
@@ -50,6 +63,11 @@ namespace Week_2.Backend
 
             rptSearch.DataSource = dr;
             rptSearch.DataBind();
+        }
+
+        protected void btnControlPanel_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Backend/ControlPanel.aspx");
         }
     }
 }

@@ -3,6 +3,14 @@
     <table>
         <tr>
             <td>
+                <asp:Label ID="lblID" runat="server">ID:</asp:Label>
+            </td>
+            <td>
+                <asp:Label ID="lblIDHolder" runat="server" />
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <asp:Label ID="lblTitle" runat="server">Title:</asp:Label>
             </td>
             <td>
@@ -80,6 +88,9 @@
             <td>
                 <asp:Label ID="lblFeedback" runat="server"></asp:Label>
             </td>
+        </tr>
+        <tr>
+            <td><asp:Button ID="btnControlPanel" runat="server" OnClick="btnControlPanel_Click" Text="Return to Control Panel"/></td>
         </tr>
     </table>
 </asp:Content>

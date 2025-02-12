@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.EnterpriseServices;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -20,6 +22,46 @@ namespace Week_2.Backend
             {
                 Response.Redirect("~/Backend");
             }
+
+            string strPodcastID = "";
+            int intPodcastID = 0;
+
+            if (Request.QueryString["ID"] != null)
+            {
+                strPodcastID = Request.QueryString["ID"].ToString();
+                lblIDHolder.Text = strPodcastID;
+
+                intPodcastID = Int32.Parse(strPodcastID);
+
+                Podcast temp = new Podcast();
+                SqlDataReader dr = temp.FindOnePodcast(intPodcastID);
+
+                while (dr.Read())
+                {
+                    int intMins, intSecs;
+                    DateTime dtRelease;
+                    txtTitle.Text = dr["Title"].ToString();
+                    txtArtist.Text = dr["Artist"].ToString();
+                    txtAlbum.Text = dr["Album"].ToString();
+                    intSecs = Convert.ToInt32(dr["PlayTime"].ToString()) % 60;
+                    txtPlaytimeSec.Text = intSecs.ToString(); 
+                    intMins = (Convert.ToInt32(dr["PlayTime"].ToString()) - intSecs) / 60;
+                    txtPlaytimeMin.Text = intMins.ToString();
+                    txtFirstWeekSales.Text = dr["FirstWeekSales"].ToString();
+                    txtNumberHosts.Text = dr["NumberHosts"].ToString();
+                    txtEpisodeNumber.Text = dr["EpisodeNumber"].ToString();
+                    if (DateTime.TryParse(dr["Release"].ToString(), out dtRelease))
+                    {
+                        calReleaseDate.SelectedDate = dtRelease;
+                        calReleaseDate.VisibleDate = dtRelease;
+                    }
+                    else
+                    {
+                        calReleaseDate.SelectedDate = DateTime.Now;
+                        lblFeedback.Text += "ERROR: Release date unable to parse. ";
+                    }
+                }
+            }
         }
 
         protected void btnRecordSubmit_Click(object sender, EventArgs e)
@@ -31,6 +73,7 @@ namespace Week_2.Backend
             temp.Artist = txtArtist.Text;
             temp.Album = txtAlbum.Text;
             temp.Release = calReleaseDate.SelectedDate;
+            temp.Feedback = "";
 
             if (Int32.TryParse(txtFirstWeekSales.Text, out salesTemp))
             {
@@ -72,20 +115,32 @@ namespace Week_2.Backend
                 temp.Feedback += "Error: incorrect data entry type. (Episodes) ";
             }
 
-            temp.Feedback += " " + temp.AddARecord();
+            if (lblIDHolder.Text == "")
+            {
+                temp.Feedback += " " + temp.AddARecord();
+                txtTitle.Text = "";
+                txtArtist.Text = "";
+                txtAlbum.Text = "";
+                calReleaseDate.SelectedDate = DateTime.Now;
+                txtEpisodeNumber.Text = "";
+                txtFirstWeekSales.Text = "";
+                txtNumberHosts.Text = "";
+                txtPlaytimeMin.Text = "";
+                txtPlaytimeSec.Text = "";
+            }
+            else
+            {
+                temp.PodcastID = Convert.ToInt32(Request.QueryString["ID"].ToString());
+                temp.Feedback += " " + temp.UpdateARecord(Convert.ToInt32(Request.QueryString["ID"].ToString()));
+                lblFeedback.Text = temp.Feedback;
+            }
 
             lblFeedback.Text = temp.Feedback;
+        }
 
-            txtTitle.Text = "";
-            txtArtist.Text = "";
-            txtAlbum.Text = "";
-            calReleaseDate.SelectedDate = DateTime.Now;
-            txtEpisodeNumber.Text = "";
-            txtFirstWeekSales.Text = "";
-            txtNumberHosts.Text = "";
-            txtPlaytimeMin.Text = "";
-            txtPlaytimeSec.Text = "";
-
+        protected void btnControlPanel_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("/Backend/ControlPanel.aspx");
         }
     }
 }

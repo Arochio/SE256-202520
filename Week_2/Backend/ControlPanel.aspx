@@ -11,8 +11,8 @@
 
         <tr>
             
-            <td><asp:Button ID="btnAddSong" runat="server" OnClick="btnAddSong_Click" Text="Add Song"/></td>
-            <td><asp:Button ID="btnAddAlbum" runat="server" OnClick="btnAddAlbum_Click" Text="Add Album"/></td>
+            <td><asp:Button ID="btnAddSong" runat="server" OnClick="btnAddSong_Click" Text="Add Songs"/></td>
+            <td><asp:Button ID="btnSearchSong" runat="server" OnClick="btnSearchSong_Click" Text="Search Songs"/></td>
 
         </tr>
         <tr>

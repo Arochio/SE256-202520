@@ -5,9 +5,10 @@
 
     <table>
         <tr>
+            <td><asp:Label ID="lblFeedback" runat="server" /></td>
+        </tr>
+        <tr>
             <td><asp:Button ID="btnSearchSong" runat="server" Text="Search" OnClick="btnSearchSong_Click" /></td>
-            <td><asp:Button ID="btnDelSong" runat="server" Text="Delete" OnClick="btnDelSong_Click" /></td>
-            <td><asp:Button ID="btnUpdateSong" runat="server" Text="Update" OnClick="btnUpdateSong_Click" /></td>
             <td><asp:Button ID="btnCancel" runat="server" Text="Cancel" OnClick="btnCancel_Click" /></td>
         </tr>
         <tr>
@@ -51,10 +52,14 @@
                     <asp:Label ID="lblNumberHosts" runat="server" Text='<%# Eval("NumberHosts") %>' />
                     <asp:Label ID="lblEpisodeNumber" runat="server" Text='<%# Eval("EpisodeNumber") %>' />
                     <asp:Label ID="lblFeedbackRPT" runat="server" Text='<%# Eval("Feedback") %>' />
-                    <asp:HyperLink ID="hypEditSongs" runat="server" Text="Edit" NavigateUrl='<%# Eval("ID", "~/Backend/EditSongs.aspx?ID={0}") %>' />
+                    <asp:HyperLink ID="hypEditSongs" runat="server" Text="Edit" NavigateUrl='<%# Eval("ID", "~/Backend/AddSongs.aspx?ID={0}") %>' />
+                    <asp:HyperLink ID="hypDelSongs" runat="server" Text="Delete" NavigateUrl='<%# Eval("ID", "~/Backend/SearchSongs.aspx?ID={0}") %>' />
                     <br />
                 </ItemTemplate>
             </asp:Repeater>
+        </tr>
+        <tr>
+            <td><asp:Button ID="btnControlPanel" runat="server" OnClick="btnControlPanel_Click" Text="Return to Control Panel"/></td>
         </tr>
     </table>
 

@@ -15,6 +15,15 @@ namespace Week_2.Backend
     {
 
         /// <summary>
+        /// lblFeedback control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblFeedback;
+
+        /// <summary>
         /// btnSearchSong control.
         /// </summary>
         /// <remarks>
@@ -22,24 +31,6 @@ namespace Week_2.Backend
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSearchSong;
-
-        /// <summary>
-        /// btnDelSong control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnDelSong;
-
-        /// <summary>
-        /// btnUpdateSong control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnUpdateSong;
 
         /// <summary>
         /// btnCancel control.
@@ -103,5 +94,14 @@ namespace Week_2.Backend
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Repeater rptSearch;
+
+        /// <summary>
+        /// btnControlPanel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnControlPanel;
     }
 }
