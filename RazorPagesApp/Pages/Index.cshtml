@@ -6,5 +6,39 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome @Model.FName</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <table class="table table-bordered table-sm table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Type</th>
+                <th>Song</th>
+                <th>Artist</th>
+                <th>Notes</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model == null)
+            {
+                <tr>
+                    <td colspan="7" class="text-center">No Model</td>
+                </tr>
+            }
+            else
+            {
+                @foreach (var p in Model.submissions)
+                {
+                    <tr>
+                        <td>@p.Submission_ID</td>
+                        <td>@p.Submission_Type</td>
+                        <td>@p.Submission_Song</td>
+                        <td>@p.Submission_Artist</td>
+                        <td>@p.Submission_Notes</td>
+                        <td>@p.Submission_Email</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
 </div>

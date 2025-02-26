@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RazorPagesApp.Models;
+using Microsoft.Extensions.Configuration;
 
 namespace RazorPagesApp.Pages
 {
@@ -8,7 +9,14 @@ namespace RazorPagesApp.Pages
     {
 
         [BindProperty]
-        public SongSubmission tempSubmision {  get; set; }
+        public SongSubmission tempSubmission {  get; set; }
+
+        private readonly IConfiguration _configuration;
+
+        public SubmissionModel(IConfiguration configuration)
+        {
+            _configuration = configuration;
+        }
 
         public void OnGet()
         {
@@ -17,7 +25,6 @@ namespace RazorPagesApp.Pages
 
         public IActionResult OnPost()
         {
-
             IActionResult temp;
 
             if(ModelState.IsValid == false)
@@ -26,6 +33,12 @@ namespace RazorPagesApp.Pages
             }
             else
             {
+                if (tempSubmission is null == false)
+                {
+                    SongSubmissionDataAccessLayer factory = new SongSubmissionDataAccessLayer(_configuration);
+
+                    factory.Create(tempSubmission);
+                }
                 temp = Page();
             }
 

@@ -7,19 +7,33 @@
 <h1>Submit Songs</h1>
 
 <form method="post">
-	<input type="text" placeholder="Title" asp-for="tempSubmision.Submission_Title" />
-	<input type="text" placeholder="Submission Type" asp-for="tempSubmision.Submission_Type" />
-	<input type="text" placeholder="Request" asp-for="tempSubmision.Submission_Content" />
-	<input type="text" placeholder="Email" asp-for="tempSubmision.Submission_Email" />
-
+	<div class="form-group">
+		<input type="text" placeholder="Submission Type" asp-for="tempSubmission.Submission_Type" />
+		<span asp-validation-for="tempSubmission.Submission_Type" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<input type="text" placeholder="Song" asp-for="tempSubmission.Submission_Song" />
+		<span asp-validation-for="tempSubmission.Submission_Song" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<input type="text" placeholder="Artist" asp-for="tempSubmission.Submission_Artist" />
+		<span asp-validation-for="tempSubmission.Submission_Artist" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<input type="text" placeholder="Extra Notes" asp-for="tempSubmission.Submission_Notes" />
+		<span asp-validation-for="tempSubmission.Submission_Notes" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<input type="text" placeholder="Email" asp-for="tempSubmission.Submission_Email" />
+		<span asp-validation-for="tempSubmission.Submission_Email" class="text-danger"></span>
+	</div>
 	<button type="submit">Submit</button>
 </form>
 
 @{
-	if(Model.tempSubmision is not null)
+	if(Model.tempSubmission != null && Model.tempSubmission.Feedback != null)
 	{
 		<h2>Results:</h2>
-		<p>@Model.tempSubmision.Submission_Title</p>
-		<p>@Model.tempSubmision.Submission_Email</p>
+		<p>@Model.tempSubmission.Feedback</p>
 	}
 }

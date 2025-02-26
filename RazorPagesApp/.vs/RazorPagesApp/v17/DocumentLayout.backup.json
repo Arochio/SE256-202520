@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|c:\\users\\008006845\\desktop\\se256-202520\\razorpagesapp\\pages\\submission.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|solutionrelative:pages\\submission.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|c:\\users\\008006845\\desktop\\se256-202520\\razorpagesapp\\pages\\submission.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|solutionrelative:pages\\submission.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|c:\\users\\008006845\\desktop\\se256-202520\\razorpagesapp\\models\\songsubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|solutionrelative:models\\songsubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|c:\\users\\008006845\\desktop\\se256-202520\\razorpagesapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|c:\\users\\008006845\\desktop\\se256-202520\\razorpagesapp\\razorpagesapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|solutionrelative:razorpagesapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|c:\\users\\008006845\\desktop\\se256-202520\\razorpagesapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|c:\\users\\008006845\\desktop\\se256-202520\\razorpagesapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|c:\\users\\008006845\\desktop\\se256-202520\\razorpagesapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|c:\\users\\008006845\\desktop\\se256-202520\\razorpagesapp\\models\\songsubmissiondataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0938C8D7-7A78-40A6-8711-0629DE2F37A0}|RazorPagesApp.csproj|solutionrelative:models\\songsubmissiondataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,95 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 190,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Submission.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\Pages\\Submission.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Submission.cshtml.cs",
-              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\Pages\\Submission.cshtml.cs",
-              "RelativeToolTip": "Pages\\Submission.cshtml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T20:34:08.354Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Submission.cshtml",
-              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\Pages\\Submission.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Submission.cshtml",
-              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\Pages\\Submission.cshtml",
-              "RelativeToolTip": "Pages\\Submission.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T20:33:03.489Z",
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\Pages\\Index.cshtml.cs*",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T22:02:14.914Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SongSubmission.cs",
-              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\Models\\SongSubmission.cs",
-              "RelativeDocumentMoniker": "Models\\SongSubmission.cs",
-              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\Models\\SongSubmission.cs",
-              "RelativeToolTip": "Models\\SongSubmission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "SongSubmissionDataAccessLayer.cs",
+              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\Models\\SongSubmissionDataAccessLayer.cs",
+              "RelativeDocumentMoniker": "Models\\SongSubmissionDataAccessLayer.cs",
+              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\Models\\SongSubmissionDataAccessLayer.cs",
+              "RelativeToolTip": "Models\\SongSubmissionDataAccessLayer.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAD4v14AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T20:31:18.673Z",
+              "WhenOpened": "2025-02-26T21:28:36.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RazorPagesApp",
-              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\RazorPagesApp.csproj",
-              "RelativeDocumentMoniker": "RazorPagesApp.csproj",
-              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\RazorPagesApp.csproj",
-              "RelativeToolTip": "RazorPagesApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-12T20:29:59.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAABsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-12T20:16:45.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T20:15:00.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
               "ToolTip": "C:\\Users\\008006845\\Desktop\\SE256-202520\\RazorPagesApp\\Pages\\Index.cshtml",
               "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-12T20:13:49.691Z",
               "EditorCaption": ""
