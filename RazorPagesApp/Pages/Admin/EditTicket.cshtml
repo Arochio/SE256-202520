@@ -1,0 +1,43 @@
+﻿@page
+@model RazorPagesApp.Pages.Admin.EditTicketModel
+@{
+	ViewData["Title"] = "Edit Ticket";
+}
+
+<h1>Edit Ticket</h1>
+
+<form method="post">
+	<div class="form-group">
+		<input type="text" placeholder="Submission ID" asp-for="submission.Submission_ID" disabled/>
+		<span asp-validation-for="submission.Submission_ID" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<input type="text" placeholder="Submission Type" asp-for="submission.Submission_Type" />
+		<span asp-validation-for="submission.Submission_Type" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<input type="text" placeholder="Song" asp-for="submission.Submission_Song" />
+		<span asp-validation-for="submission.Submission_Song" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<input type="text" placeholder="Artist" asp-for="submission.Submission_Artist" />
+		<span asp-validation-for="submission.Submission_Artist" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<input type="text" placeholder="Extra Notes" asp-for="submission.Submission_Notes" />
+		<span asp-validation-for="submission.Submission_Notes" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<input type="text" placeholder="Email" asp-for="submission.Submission_Email" />
+		<span asp-validation-for="submission.Submission_Email" class="text-danger"></span>
+	</div>
+	<button type="submit">Submit</button>
+</form>
+
+@{
+	if (Model.submission != null && Model.submission.Feedback != null)
+	{
+		<h2>Results:</h2>
+		<p>@Model.submission.Feedback</p>
+	}
+}

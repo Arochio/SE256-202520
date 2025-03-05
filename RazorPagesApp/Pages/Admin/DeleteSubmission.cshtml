@@ -1,0 +1,35 @@
+﻿@page
+@model RazorPagesApp.Pages.Admin.DeleteSubmissionModel
+@{
+	ViewData["Title"] = "DeleteSubmission";
+}
+
+<h1>Delete Submission</h1>
+
+<h2>Delete</h2>
+<h3>Are you sure you want to delete this?</h3>
+<div>
+	<dl class="dl-horizontal">
+		<dt>
+			@Html.DisplayNameFor(model => model.submission.Submission_Song)
+		</dt>
+		<dd>
+			@Html.DisplayNameFor(model => model.submission.Submission_Artist)
+		</dd>
+		<dt>
+			@Html.DisplayNameFor(model => model.submission.Submission_Type)
+		</dt>
+		<dd>
+			@Html.DisplayNameFor(model => model.submission.Submission_Notes)
+		</dd>
+		<dt>
+			@Html.DisplayNameFor(model => model.submission.Submission_Email)
+		</dt>
+	</dl>
+
+	<form method="post">
+		<input type="hidden" asp-for="submission.Submission_ID" />
+		<input type="submit" value="Delete" class="btn btn-default" />
+		<a asp-page="/Admin/ControlPanel">Back to List</a>
+	</form>
+</div>

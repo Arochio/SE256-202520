@@ -1,0 +1,32 @@
+﻿@page
+@model RazorPagesApp.Pages.Admin.IndexModel
+@{
+	ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+
+<form method="post">
+
+	<div class="form-group">
+		<label asp-for="sAdmin.SongAdmin_Email">Email</label>
+		<input asp-for="sAdmin.SongAdmin_Email" type="text" class="form-control" placeholder="Email" />
+		<span asp-asp-validation-for="sAdmin.SongAdmin_Email" class="text-danger"></span>
+	</div>
+	<div class="form-group">
+		<label asp-for="sAdmin.SongAdmin_PW">Password</label>
+		<input asp-for="sAdmin.SongAdmin_PW" type="password" class="form-control" placeholder="Password" />
+		<span asp-asp-validation-for="sAdmin.SongAdmin_PW" class="text-danger"></span>
+	</div>
+
+	<button type="submit">Submit</button>
+</form>
+
+
+@{
+	if(Model.sAdmin != null && Model.sAdmin.Feedback != null)
+	{
+		<h2>Results</h2>
+		<p>@Model.sAdmin.Feedback</p>
+	}
+}
