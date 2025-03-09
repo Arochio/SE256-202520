@@ -11,7 +11,9 @@ namespace RazorPagesApp.Pages.Admin
 
         SongSubmissionDataAccessLayer factory;
 
-        public SongSubmission submission { get; set; }
+        [BindProperty]
+        public SongSubmission delSubmission { get; set; }
+
 
         public DeleteSubmissionModel(IConfiguration configuration)
         {
@@ -27,10 +29,10 @@ namespace RazorPagesApp.Pages.Admin
             }
             else
             {
-                submission = factory.GetOneRecord(id);
+                delSubmission = factory.GetOneRecord(id);
             }
 
-            if (submission == null)
+            if (delSubmission == null)
             {
                 return NotFound();
             }
@@ -40,12 +42,12 @@ namespace RazorPagesApp.Pages.Admin
 
         public ActionResult OnPost(int? id)
         {
-            if (!ModelState.IsValid)
+            if (id == null)
             {
-                return Page();
+                return NotFound();
             }
             factory.DeleteRecord(id);
-            return RedirectToPage("/Admin/ControlPanel");
+            return Redirect("/Admin/ControlPanel");
         }
     }
 }

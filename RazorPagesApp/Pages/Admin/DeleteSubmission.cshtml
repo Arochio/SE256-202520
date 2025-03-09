@@ -5,31 +5,42 @@
 }
 
 <h1>Delete Submission</h1>
-
-<h2>Delete</h2>
 <h3>Are you sure you want to delete this?</h3>
-<div>
-	<dl class="dl-horizontal">
-		<dt>
-			@Html.DisplayNameFor(model => model.submission.Submission_Song)
-		</dt>
-		<dd>
-			@Html.DisplayNameFor(model => model.submission.Submission_Artist)
-		</dd>
-		<dt>
-			@Html.DisplayNameFor(model => model.submission.Submission_Type)
-		</dt>
-		<dd>
-			@Html.DisplayNameFor(model => model.submission.Submission_Notes)
-		</dd>
-		<dt>
-			@Html.DisplayNameFor(model => model.submission.Submission_Email)
-		</dt>
-	</dl>
+<div class="text-center">
+
+    <table class="table table-bordered table-sm table-striped">
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Song</th>
+                <th>Artist</th>
+                <th>Notes</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model == null)
+            {
+                <tr>
+                    <td colspan="7" class="text-center">No Model</td>
+                </tr>
+            }
+            else
+            {
+                    <tr>
+                        <td>@Model.delSubmission.Submission_Type</td>
+                        <td>@Model.delSubmission.Submission_Song</td>
+                        <td>@Model.delSubmission.Submission_Artist</td>
+                        <td>@Model.delSubmission.Submission_Notes</td>
+                        <td>@Model.delSubmission.Submission_Email</td>
+                    </tr>
+            }
+        </tbody>
+    </table>
 
 	<form method="post">
-		<input type="hidden" asp-for="submission.Submission_ID" />
-		<input type="submit" value="Delete" class="btn btn-default" />
+		<input type="hidden" asp-for="delSubmission.Submission_ID" />
+		<input type="submit" value="Delete" />
 		<a asp-page="/Admin/ControlPanel">Back to List</a>
 	</form>
 </div>

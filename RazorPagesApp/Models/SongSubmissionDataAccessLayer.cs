@@ -140,8 +140,7 @@ namespace RazorPagesApp.Models
                 {
                     SqlCommand cmd = new SqlCommand();
 
-                    //string strSQL = "UPDATE SongSubmissions SET Submission_Type = @Submission_Type, Submission_Song = @Submission_Song, Submission_Artist = @Submission_Artist, Submission_Notes = @Submission_Notes, Submission_Email = @Submission_Email WHERE Submission_ID = @Submission_ID;";
-                    string strSQL = "UPDATE SongSubmissions SET Submission_Notes = 'HOORAY!' WHERE Submission_ID = 1";
+                    string strSQL = "UPDATE SongSubmissions SET Submission_Type = @Submission_Type, Submission_Song = @Submission_Song, Submission_Artist = @Submission_Artist, Submission_Notes = @Submission_Notes, Submission_Email = @Submission_Email WHERE Submission_ID = @Submission_ID;";
 
                     cmd.CommandText = strSQL;
                     cmd.Connection = conn;

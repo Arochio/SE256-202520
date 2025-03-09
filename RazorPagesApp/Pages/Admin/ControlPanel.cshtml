@@ -37,7 +37,7 @@
                         <td>@p.Submission_Notes</td>
                         <td>@p.Submission_Email</td>
                         <td><a asp-page="/Admin/EditTicket" asp-route-id="@p.Submission_ID">Edit</a></td>
-                        <td><a asp-page="/Admin/DeleteTicket" asp-route-id="@p.Submission_ID">Delete</a></td>
+                        <td><a asp-page="/Admin/DeleteSubmission" asp-route-id="@p.Submission_ID">Delete</a></td>
                     </tr>
                 }
             }
